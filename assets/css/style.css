@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: rgb(7, 167, 241);
 }
 
 .container {
@@ -22,7 +22,14 @@ body {
     border-radius: 12px;
     padding: 28px;
 }
-
+.container h1 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
 .search-box {
     width: 100%;
     height: min-content;
